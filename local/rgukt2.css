@@ -1,0 +1,270 @@
+html
+	{	padding:0px;
+		margin:0px;
+		background-color: aquamarine;
+	}
+body
+	{	padding:-5px;
+		margin:-5px;
+                color:#2894FF;
+	}
+.wrapper
+	{	padding:0px;
+		margin:0px;
+	}
+.header
+	{	
+		width:1350px;
+                height:170px
+	}      
+.menu
+	{	background:#2894FF;
+		width:1350px;
+		margin:0px auto;
+		margin-top:-21px;
+		padding:0px 7px;
+	}
+.menu ul
+	{	padding:12px 0px 12px 95px;
+		box-shadow:0px 0px 20px rgb(30,30,30);
+		z-index:1;
+	}
+.menu ul li
+	{	
+		background:#FF00FF;
+		display:inline;
+		padding:10px 15px 10px 15px;
+	}
+.menu ul li a
+	{	text-decoration:none;
+		color:white;
+		font-size:14px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight:700;
+	}
+.menu ul li:hover
+	{	background:white;
+		//border-radius:5px;
+	}
+.menu ul li:hover a
+	{	color:#0000CD;}
+.content
+	{	background:white;
+		margin:auto;
+		margin-top:-16px;
+		width:13500px;
+		height:900px;
+		padding:6px 0px;
+	}
+#sidebar
+	{	padding:0px 0px 0px 3px;
+		width:250px;
+		float:left;
+		//background-color:#FF00FF;
+	}
+#sidebar .box
+	{	padding:0px 0px 0px 3px;}
+#sidebar .box .bookmarks
+	{	margin:0px 0px 0px 3px;
+		border:1px solid #0000CD;
+		border-radius:3px;
+		box-shadow:0px 0px 2px #B2B2B2;
+		padding:1px 0px 1px 14px;
+		height:900px;
+	}
+#sidebar .box .bookmarks li
+	{	list-style:none;
+		padding:10px 0px 10px 3px;
+		border-bottom:1px dotted #D4D4D4;
+		
+	}
+#sidebar .box .bookmarks li a
+	{	text-decoration:none;
+		color:#FF00FF;
+		font-size:13px;
+		font-weight:700;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+#sidebar .box .bookmarks li .submenu 
+	{	
+		display:none;
+		margin-top:-30px;
+		margin-left:228px;
+		position:absolute;
+		background:white;
+		width:200px;
+		padding:0px 15px 0px 0px;
+		border:1px solid #F3F3F3;
+		border-radius:3px;
+		box-shadow:0px 0px 2px #B2B2B2;
+	}
+#sidebar .box .bookmarks li .submenu li
+	{	
+		padding-left:15px;	
+	}
+
+#sidebar .box .bookmarks li:hover > .submenu 
+	{	
+		display:block;
+	}
+.aboutrgukt
+	{	height:220px;
+		width:850px;
+		padding:0px 0px 0px 0px;
+		margin-right:5px;
+		border:1px solid #F3F3F3;
+		box-shadow:0px 0px 2px #B2B2B2;
+		float:right;
+		background-color:#F0F0F0;
+		z-index:-1;
+	}
+.aboutrgukt .aboutimg
+	{	border:4px solid #2894FF;
+		border-radius:5px;
+		width:300px;
+		height:190px;
+		margin-top:11px;
+		margin-left:10px;
+		float:right;
+	}
+.aboutrgukt .aboutcontent
+	{	height:200px;
+		width:450px;
+		padding:20px 0px 0px 15px;
+		margin:11px 28px 0px 0px;
+		//border:1px solid #2894FF;
+		float:right;
+		font-size:14px;
+		font-weight:500;
+		font-style:italic;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+.aboutrgukt .aboutcontent h3
+	{ 	margin:2px 0px 0px 0px;
+		color:black;
+		padding-bottom:20px;
+	}	
+.notices
+	{	z-index:-1;
+		height:400px;
+		width:542px;
+		background-color:#F0F0F0;
+		float:right;
+		margin:10px 3px 0px 0px;
+		border:1px solid #F3F3F3;
+		box-shadow:0px 0px 2px #B2B2B2;
+		padding:0px;
+	}
+.notice-header
+	{	padding:8px;
+		background:#FF00FF;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+		font-weight:700;
+		color:rgb(231,231,231);
+	}
+.news
+	{	z-index:-1;
+		height:400px;
+		width:300px;
+		float:left;
+		margin-top:10px;
+		margin-left:12px;
+		background-color:#F0F0F0;
+		border:1px solid #F3F3F3;
+		box-shadow:0px 0px 2px #B2B2B2;
+		padding:0px;
+	}
+.updates
+	{	z-index:-1;
+		height:262px;
+		width:851px;
+		float:right;
+		margin:6px 5px 0px 0px;
+		//margin-right:2px;
+		background-color:#F0F0F0;
+		border:1px solid #F3F3F3;
+		box-shadow:0px 0px 2px #B2B2B2;
+		padding:0px;
+	}
+#administration_body
+{	width:810px;
+	float:right;
+	border:0px solid black;
+	margin-right:10px;
+	margin-top:-2px;
+	padding: 10px 20px 20px 20px;
+}
+#administration_body .introheader
+{	font-family:Arial Helvetica sans-serif;
+	font-size:30px;
+	font-weight:700;
+	color:midnightblue;
+}
+#administration_body .details
+{	margin-top:25px;
+	font-family:Arial Helvetica sans-serif;
+	font-size:18px;
+	font-weight:600;
+	color:#5E5E00;
+}
+#administration_body .about
+{	margin-top:14px;
+	font-family:verdana;
+	font-weight:500;
+	font-size:14px;
+}
+#administration_body #contact
+{	margin-top:14px;
+	font-family:verdana;
+	font-weight:200;
+	font-size:14px;
+}
+
+#footer
+	{	clear:both;
+		margin:auto;
+		padding-top:30px;
+		background-color:#2894FF;
+		text-align:center;
+		height:40px;
+		width:1120px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight:700;
+		font-size:14px;
+		color:white;
+}
+/*admissions*/
+.admission_body{
+	display:block;
+	float:right;
+	width:810px;
+	padding:20px;
+	margin-right:6px;
+	border:0px solid black;
+}
+.ad_head h2{
+	font-family:sans-serif;
+	font-weight:bold;
+	text-align:center;
+	border:0px solid red;
+	margin-left:-170px;
+}
+.ug h1,h2,h3,h4,h5{
+	font-family:sans-serif;
+	font-weight:bold;
+}
+.ug table{
+	margin-left:150px;
+}
+.ug table,tr,td{
+	border:1px solid black;
+	border-collapse:collapse;
+}
+.ug td{
+	padding:0px 20px 0px 20px;
+}
+.ug p,li{
+	font-family:tahoma;
+}
+
